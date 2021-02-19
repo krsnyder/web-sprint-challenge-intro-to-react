@@ -11,12 +11,10 @@ const Styled = styled.div`
 `
 
 export default function Character(props) {
-  
   const { character} = props
   return (
     <Styled>
       <h3>{character.name}</h3>
-      <button > ... </button>
     </Styled>
   )
 }
